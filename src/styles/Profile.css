@@ -1,0 +1,30 @@
+.Profile{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Profile-img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #fff;
+    border-radius: 75px;
+    object-fit: cover;
+}
+
+.Profile-info{
+    margin-left: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Profile-name{
+    font-size: 26px;
+}
+
+.Profile-followers, .Profile-genres{
+    font-size: 18px;
+}
+
